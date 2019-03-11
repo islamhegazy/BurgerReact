@@ -1,12 +1,12 @@
-import React, {Component} from 'react';
-import './App.css';
-import Layout from './../Components/Layout/Layout';
-import BurgerBuilder from './BurgerBuilder/BurgerBuilder';
- class App extends Component {
+import React, { Component } from 'react';
 
-  render() {
+import Layout from '../hoc/Layout/Layout';
+import BurgerBuilder from './BurgerBuilder/BurgerBuilder';
+
+class App extends Component {
+  render () {
     return (
-      <div className="App">
+      <div>
         <Layout>
           <BurgerBuilder />
         </Layout>
